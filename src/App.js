@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import SimpleForm from './components/SimpleForm';
+// import FormikForm from './components/FormikForm';
+// import FormikFormWithYup from './components/FormikFormWithYup';
+// import ReducedFormikFormWithYup from './components/Reducing Boiler Plate/FormikFormWithYup';
+// import ReducedForm from './components/Reducing Boiler Plate/ReducedForm';
+import SignupForm from "./components/Reducing Boiler Plate/SignupForm";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* UnComment one component at a time */}
+
+      {/* <SimpleForm/> */}
+      {/* <FormikForm/> */}
+      {/* <FormikFormWithYup/> */}
+      {/* <ReducedFormikFormWithYup/> */}
+      {/* <ReducedForm/> */}
+      <SignupForm />
     </div>
   );
 }
